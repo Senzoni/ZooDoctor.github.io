@@ -8,25 +8,25 @@ nav{
 	height: 60px;
 	background: #008B8B;
 	position: fixed;
+	z-index: 10;
 
 }
 /*#008B8B-бирюзовый
 #FFCF40-желтый*/
 .logo{
-	background: url(../img/Icone.png) 60% 0%/auto 100% no-repeat;
+	
 	color: yellow;
 	font-size: 38px;
 	line-height: 60px;
-	padding-left: 358px;
-	float: left;
-
- 
-  	
-  	
+	background: url(../img/Icone.png) 5% 0%/auto 100% no-repeat;
+}
+main{
+	width: 100%;
+	height: 100%;
 }
 .menu{
 	float: left;
-	padding-left: 432px;
+	
 
 }
 .menu li{
@@ -34,13 +34,17 @@ nav{
 	line-height: 60px;
 	color: #FFCF40;
 	margin-right: 70px;
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: uppercase;
 	-webkit-animation: topshift 0.4s ease forwards;
 	-o-animation: topshift 0.4s ease forwards;
 	animation: topshift	0.4s ease forwards;
 	opacity: 1;
 }
+.white-btn:visited{
+	color: #008B8B;
+}
+
 .main{
 	width: 100%;
 	height: 1200px;
@@ -49,16 +53,17 @@ nav{
 	background-attachment: fixed;
 }
 .title__container{
-	float: left;
-	margin: 250px 0px 0px 166px;
+	width: 100%;
 	color: #008B8B;
 	text-align: center;
+	width: 100%;
+	opacity: 0;
 	-webkit-animation: titlemove 1.2s ease forwards;
 	-o-animation: titlemove 1.2s ease forwards;
 	animation: titlemove 1.2s ease forwards;
-	-webkit-animation-delay: 2.6s;
-	-o-animation-delay: 2.6s;
-	animation-delay: 2.6s;
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
 
 
 
@@ -70,7 +75,7 @@ nav{
 	}
 	to{
 		opacity: 1;
-		margin-left: 200px;
+		margin-left: 0px;
 	}
 }
 .title__container h1{
@@ -80,23 +85,21 @@ nav{
 }
 
 .title__container h4{
-	line-height: 42px;
-	margin-top: 100px;
+	
 	font-size: 32px;
 	color: #008B8B;
 
 
 }
 .title__container input{
-	height: 40px;
-	text-align: left;
+	
 	border: 4px solid #008B8B;
 	background: none;
 	border-radius: 27%;
 	color: #008B8B;
 	font-size: 15px;
-	padding: 150px 336px;
-	margin: 144px 14px 0px 0px;
+	padding: 50px 136px;
+	margin: 64px 14px 0px 0px;
 }
 
 
@@ -141,7 +144,7 @@ nav{
 	color: yellow;
 	font-size: 24px;
 	transform: scale(1);
-	padding: 53px 0px 0px 280px;
+	
 	text-decoration: none;
 	
 	
@@ -159,7 +162,7 @@ nav{
 .Two p{
 	font-size: 12px;
 	color: yellow	;
-	margin: 173px 0px 0px 250px;	
+		
 	line-height: 30px;
 	text-align: center;
 	
@@ -169,32 +172,82 @@ nav{
 	color: #fff;
 	transform: scale(1.6,1.6);
 }
+.Odin{
+
+	display: flex;
+	justify-content:space-around;
+}
+/*.web_scill{
+  float: left;
+  padding-left: 70px;
+  line-height: 60px;
+  margin-right: 140px;
+  font-size: 12px;
+  text-transform: uppercase;
+
+}
+.web_scill2{
+  float: left;
+  line-height: 60px;
+  margin-right: 140px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.web_scill3{
+  float: left;
+  line-height: 60px;
+  font-size: 12px;
+  margin-right: 0px;
+  text-transform: uppercase;
+}*/
 .web_scill{
-	float: left;
-	padding-left: 70px;
+	
+	
 	line-height: 60px;
-	margin-right: 140px;
+
 	font-size: 12px;
 	text-transform: uppercase;
 
 }
 .web_scill2{
-	float: left;
+	
 	line-height: 60px;
-	margin-right: 140px;
+	
 	font-size: 12px;
 	text-transform: uppercase;
 }
 .web_scill3{
-	float: left;
+	
 	line-height: 60px;
 	font-size: 12px;
-	margin-right: 0px;
 	text-transform: uppercase;
 }
-
+.Dva{
+	display: flex;
+	justify-content: space-around;
+}
 
 .web_scill4 {
+	
+	line-height: 160px;
+	font-size: 12px;
+	text-transform: uppercase;
+	
+}
+
+.web_scill5{
+	
+	line-height: 160px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.web_scill6{
+	
+	line-height: 160px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+/*.web_scill4 {
 	float: left;
 	margin-right: 70px;
 	line-height: 160px;
@@ -218,22 +271,8 @@ nav{
 	line-height: 160px;
 	font-size: 12px;
 	text-transform: uppercase;
-}
-/*<div class="web_scill4" style="">
-          <img src=" " alt="">
-          <h4>Стомоталогия</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="web_scill5" style="">
-          <img src=" " alt="">
-          <h4>Стационар</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="web_scill6" style="">
-          <img src=" " alt="">
-          <h4>Хирургия</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>*/
+}*/
+
 .Three{
 	background: url(../img/Fon4.jpg) center/cover no-repeat ;
 	height: 800px;
