@@ -135,7 +135,7 @@ main{
 	color: yellow;
 	font-size: 55px;
 	line-height: 100px;
-	text-align: center;	
+	
 
 	
 }
@@ -302,6 +302,9 @@ footer{
 	text-align: center;
 	
 }
+.Contate h4{
+	color: yellow;
+}
 footer p{
 	font-size: 18px;
 	color: yellow;	
@@ -322,6 +325,7 @@ footer p{
 .custom-map{
 	font-size: 35px;
 	width: 45px;
+	color: yellow;
 }
 .web_scil2{
 	text-align: center;
