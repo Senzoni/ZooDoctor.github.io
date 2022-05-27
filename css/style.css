@@ -122,16 +122,15 @@ main{
 	transform: scale(1.2);
 }
 .Two{
-	background:url(../img/1.png) 14% 19%/auto 15% no-repeat,url(../img/2.png) 52% 17%/auto 15% no-repeat,
+	background:url(../img/1.png) 4% 19%/auto 15% no-repeat,url(../img/2.png) 52% 17%/auto 15% no-repeat,
 	url(../img/3.png) 89% 21%/auto 11% no-repeat,url(../img/4.png) 16% 74%/auto 12% no-repeat,
 	url(../img/5.png) 53% 79%/auto 21% no-repeat,url(../img/6.png) 94% 74%/auto 16% no-repeat,
 	url(../img/Fon5.jpg) center/cover no-repeat ;
-	height: 1450px;
+	height: 1250px;
 
 }
 
 .Two h3{
-
 	color: yellow;
 	font-size: 55px;
 	line-height: 100px;
@@ -144,7 +143,6 @@ main{
 	color: yellow;
 	font-size: 24px;
 	transform: scale(1);
-	
 	text-decoration: none;
 	
 	
@@ -153,7 +151,6 @@ main{
 }
 
 .Two h4:hover{
-	
 	color: #fff;
 	
 
@@ -161,8 +158,7 @@ main{
 
 .Two p{
 	font-size: 12px;
-	color: yellow	;
-		
+	color: yellow	;	
 	line-height: 30px;
 	text-align: center;
 	
@@ -201,16 +197,12 @@ main{
   text-transform: uppercase;
 }*/
 .web_scill{
-	
-	
 	line-height: 60px;
-
 	font-size: 12px;
 	text-transform: uppercase;
 
 }
 .web_scill2{
-	
 	line-height: 60px;
 	
 	font-size: 12px;
@@ -288,7 +280,7 @@ main{
 	
 }
 footer{
-	background:url(../img/карта.JPG) 6% 88%/auto 65% no-repeat,url(../img/Fon7.jpg) center/cover no-repeat;
+	background:url(../img/Fon7.jpg) center/cover no-repeat;
 	height: 1000px;
 
 	
