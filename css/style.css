@@ -307,13 +307,8 @@ footer h3{
 footer h4{
 	color: yellow;
 }
-.Tri{
-		justify-content: space-around;
-}
+
 .web_scil{
-	
-	line-height: 60px;
-	color: red;
 	
 	font-size: 32px;
 	text-transform: uppercase;
@@ -327,7 +322,7 @@ footer h4{
 }
 .web_scil2{
 	
-	line-height: 100px;
+	
 	color: yellow;
 	
 	font-size: 22px;
@@ -340,7 +335,7 @@ footer h4{
 
 .web_scil3{
 	
-	line-height: 60px;
+	
 	color: yellow;
 	
 	font-size: 22px;
@@ -360,7 +355,7 @@ footer h4{
 }
 .web_scil4{
 	
-	line-height: 60px;
+	
 	color: yellow;
 
 	font-size: 22px;
@@ -374,7 +369,7 @@ footer h4{
 
 
 footer a{
-	text-align: center;
+	
 	
 	color: red;
 	font-size: 22px;
