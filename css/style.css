@@ -122,14 +122,26 @@ main{
 	transform: scale(1.2);
 }
 .Two{
-	background:url(../img/1.png) 4% 19%/auto 15% no-repeat,url(../img/2.png) 52% 17%/auto 15% no-repeat,
-	url(../img/3.png) 89% 21%/auto 11% no-repeat,url(../img/4.png) 16% 74%/auto 12% no-repeat,
-	url(../img/5.png) 53% 79%/auto 21% no-repeat,url(../img/6.png) 94% 74%/auto 16% no-repeat,
-	url(../img/Fon5.jpg) center/cover no-repeat ;
+	background:	url(../img/Fon5.jpg) center/cover no-repeat ;
 	height: 1250px;
-
+	
 }
 
+.Odin img{
+	max-width: 100%;
+	
+	
+	
+}
+.web_scill3 img{
+	height: 230px;
+	width: 320px;
+}
+.Dva img{
+	width: 100%;
+	height: 100%;
+	
+}
 .Two h3{
 	color: yellow;
 	font-size: 55px;
