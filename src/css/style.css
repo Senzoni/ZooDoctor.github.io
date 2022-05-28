@@ -299,28 +299,20 @@ footer{
 
 }
 
-.Contate h2{
+.footer h3{
 	color: yellow;
 	font-size: 55px;
 	line-height: 100px;
-	text-align: center;
-	
-}
-.Contate h4{
+	}
+.footer h4{
 	color: yellow;
 }
-footer p{
-	font-size: 18px;
-	color: yellow;	
-	text-align: center;	
-	letter-spacing: 0.5px;	
-	line-height: 35px;
-}
+
 .web_scil{
-	float: left;
+	
 	line-height: 60px;
 	color: red;
-	margin: 40px 0px 110px 366px;
+	
 	font-size: 32px;
 	text-transform: uppercase;
 
@@ -332,10 +324,10 @@ footer p{
 	color: yellow;
 }
 .web_scil2{
-	text-align: center;
+	
 	line-height: 100px;
 	color: yellow;
-	margin: 80px 0px 0px 836px;
+	
 	font-size: 22px;
 	text-transform: uppercase;
 }
@@ -345,10 +337,10 @@ footer p{
 }
 
 .web_scil3{
-	text-align: center;
+	
 	line-height: 60px;
 	color: yellow;
-	margin: 10px 0px 0px 826px;
+	
 	font-size: 22px;
 	text-transform: uppercase;
 }
@@ -365,16 +357,14 @@ footer p{
 	width: 60px;
 }
 .web_scil4{
-	text-align: center;
+	
 	line-height: 60px;
 	color: yellow;
-	margin: 10px 0px 0px 826px;
+
 	font-size: 22px;
 	text-transform: uppercase;
 }
-.web_scil4 p{
-	padding-left: 60px;
-}
+
 .custom-clock{
 	font-size: 50px;
 	width: 60px;
@@ -383,7 +373,7 @@ footer p{
 
 footer a{
 	text-align: center;
-	margin-left: 0px 0px 0px 325px;
+	
 	color: red;
 	font-size: 22px;
 }
