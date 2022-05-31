@@ -18,7 +18,7 @@ nav{
 	color: yellow;
 	font-size: 38px;
 	line-height: 60px;
-	background: url(../img/Icone.png) 5% 0%/auto 100% no-repeat;
+	
 }
 main{
 	width: 100%;
@@ -56,7 +56,6 @@ main{
 	width: 100%;
 	color: #008B8B;
 	text-align: center;
-	width: 100%;
 	opacity: 0;
 	-webkit-animation: titlemove 1.2s ease forwards;
 	-o-animation: titlemove 1.2s ease forwards;
@@ -123,7 +122,8 @@ main{
 }
 .Two{
 	background:	url(../img/Fon5.jpg) center/cover no-repeat ;
-	height: 1250px;
+	width: 100%
+	height: 1050px;
 	
 }
 
@@ -314,6 +314,7 @@ main{
 		font-size: 35px;
 		width: 45px;
 		color: yellow;
+		width: 100%;
 	}
 	.web_scil2{
 
