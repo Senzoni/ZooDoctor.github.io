@@ -118,17 +118,14 @@ main{
 	
 }
 
-.Odin img{
+.Two img{
 	max-width: 100%;
+	height: 100%;
 	
 	
 }
 
-.Dva img{
-	max-width: 100%;
-	height: 100%;
-	
-}
+
 .Two h3{
 	color: yellow;
 	font-size: 55px;
@@ -167,11 +164,7 @@ main{
 	color: #fff;
 	transform: scale(1.3,1.3);
 }
-.Odin{
 
-	display: flex;
-	justify-content:space-around;
-}
 /*.web_scill{
   float: left;
   padding-left: 70px;
@@ -213,10 +206,7 @@ main{
   	font-size: 12px;
   	text-transform: uppercase;
   }
-  .Dva{
-  	display: flex;
-  	justify-content: space-around;
-  }
+ 
 
   .web_scill4 {
 
@@ -304,7 +294,7 @@ main{
 	}
 	.custom-map{
 		font-size: 35px;
-		width: 45px;
+		max-width: 100%;
 		color: yellow;
 		
 	}
