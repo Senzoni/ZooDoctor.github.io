@@ -294,7 +294,7 @@ main{
 	}
 	.custom-map{
 		font-size: 35px;
-		max-width: 100%;
+		width: 60px;
 		color: yellow;
 		
 	}
