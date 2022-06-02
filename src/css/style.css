@@ -79,13 +79,13 @@ main{
 }
 .title__container h1{
 	font-family: Arial, sans-serif;
-	font-size: 62px;
+	font-size: 40px;
 	font-weight: 600;
 }
 
 .title__container h4{
 	
-	font-size: 32px;
+	font-size: 30px;
 	color: #008B8B;
 
 
@@ -128,7 +128,7 @@ main{
 
 .Two h3{
 	color: yellow;
-	font-size: 55px;
+	font-size: 48px;
 	line-height: 100px;
 	
 
@@ -261,7 +261,7 @@ main{
 	}
 	.Three h3{
 		color: #20B2AA;
-		font-size: 55px;
+		font-size: 48px;
 		line-height: 100px;
 		text-align: center;	
 
@@ -270,7 +270,7 @@ main{
 	}
 	footer{
 		background:url(../img/Fon7.jpg) center/cover no-repeat;
-		height: 1000px;
+		height: 1300px;
 
 
 
@@ -278,7 +278,7 @@ main{
 
 	footer h3{
 		color: yellow;
-		font-size: 55px;
+		font-size: 48px;
 		line-height: 100px;
 	}
 	footer h4{
@@ -303,7 +303,7 @@ main{
 
 		color: yellow;
 
-		font-size: 22px;
+		font-size: 17 px;
 		text-transform: uppercase;
 	}
 	.custom-map2{
@@ -313,7 +313,7 @@ main{
 
 	.web_scil3{
 		color: yellow;
-		font-size: 22px;
+		font-size: 17px;
 		text-transform: uppercase;
 	}
 	.custom-phone{
@@ -331,7 +331,7 @@ main{
 	}
 	.web_scil4{
 		color: yellow;
-		font-size: 22px;
+		font-size: 17px;
 		text-transform: uppercase;
 	}
 
