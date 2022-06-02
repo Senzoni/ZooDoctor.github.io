@@ -114,7 +114,7 @@ main{
 .Two{
 	background:	url(../img/Fon5.jpg) center/cover no-repeat ;
 	width: 100%
-	height: 1050px;
+	max-height: 100%;
 	
 }
 
@@ -166,29 +166,7 @@ main{
 	transform: scale(1.3,1.3);
 }
 
-/*.web_scill{
-  float: left;
-  padding-left: 70px;
-  line-height: 60px;
-  margin-right: 140px;
-  font-size: 12px;
-  text-transform: uppercase;
-
-}
-.web_scill2{
-  float: left;
-  line-height: 60px;
-  margin-right: 140px;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-.web_scill3{
-  float: left;
-  line-height: 60px;
-  font-size: 12px;
-  margin-right: 0px;
-  text-transform: uppercase;
-  }*/
+	
   .web_scill{
   	line-height: 220px;
   	font-size: 12px;
@@ -229,31 +207,7 @@ main{
   	font-size: 12px;
   	text-transform: uppercase;
   }
-/*.web_scill4 {
-	float: left;
-	margin-right: 70px;
-	line-height: 160px;
-	font-size: 12px;
-	text-transform: uppercase;
-	text-align: center;
-}
-.web_scill4 p{
-	padding-left: 40px;
-}
-.web_scill5{
-	float: left;
-	margin-right: 180px;
-	line-height: 160px;
-	font-size: 12px;
-	text-transform: uppercase;
-}
-.web_scill6{
-	float: left;
-	margin-right: 90px;
-	line-height: 160px;
-	font-size: 12px;
-	text-transform: uppercase;
-	}*/
+
 
 	.Three{
 		background: url(../img/Fon4.jpg) center/cover no-repeat ;
