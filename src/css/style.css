@@ -70,7 +70,7 @@ main{
 @keyframes titlemove{
 	from{
 		opacity: 0;
-		margin-left: -500px;
+		margin-left: -700px;
 	}
 	to{
 		opacity: 1;
@@ -79,13 +79,13 @@ main{
 }
 .title__container h1{
 	font-family: Arial, sans-serif;
-	font-size: 40px;
+	font-size: 45px;
 	font-weight: 600;
 }
 
 .title__container h4{
 	
-	font-size: 30px;
+	font-size: 32px;
 	color: #008B8B;
 
 
@@ -128,7 +128,7 @@ main{
 
 .Two h3{
 	color: yellow;
-	font-size: 48px;
+	font-size: 46px;
 	line-height: 100px;
 	text-align: center;
 	
@@ -216,7 +216,7 @@ main{
 	}
 	.Three h3{
 		color: #20B2AA;
-		font-size: 48px;
+		font-size: 46px;
 		line-height: 100px;
 		text-align: center;	
 
@@ -233,7 +233,7 @@ main{
 
 	footer h3{
 		color: yellow;
-		font-size: 48px;
+		font-size: 46px;
 		line-height: 100px;
 	}
 	footer h4{
