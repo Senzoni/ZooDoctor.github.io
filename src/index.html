@@ -18,13 +18,29 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="preloader">
+      <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+      </div>
+    </div>
+	<script>
+    window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+    }, 900);
+    }
+    </script>
 	<header>
 		<nav>
 			<div class="container">
 				<div class="row">
 
-					<div class="col-xxl-2 col-xl-3 col-lg-2 col-7"><div class="logo">Зоодоктор</div></div>
-					<div class="px-0 col-xxl-7 col-xl-8 col-lg-9 offset-xxl-3 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-7">
+						<div class="logo"><img src="img/Icone.png ">Зоодоктор</div></div>
+					<div class="px-0 col-xxl-7 col-xl-7 col-lg-8 offset-xxl-2 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
 						<ul>
 							<li><a href="#main">Главная</a></li>
 							<li><a href="#services">Услуги</a></li>
@@ -181,15 +197,15 @@
 		<div class="Three" id="home">
 			<div class="container">
 				<div class="row">	
-					<div class="col-xxl-3 col-xl-5 col-8 col-sm-2 col-md-3"></div>
+					<div class="col-xxl-3 col-xl-3 col-8 col-sm-2 col-md-3"></div>
 					<div class="col-xxl-6 col-xl-7 col-12 col-sm-8 col-md-6"><h3><b>Им нужен дом</b></h3>
 
 					</div>	
 				</div>
 			
-				<div class="row">
-					<div class="col-xxl-2"></div>
-					<div class="col-xxl-8">
+				<div class="row pt-5 mt-5 justify-content-center">
+					
+					<div class="col-xxl-8 col-xl-9 col-md-8">
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -250,7 +266,7 @@
 						</div>
 						<div class="row">
 
-						<div class="col-xxl-4 col-12 col-sm-6 col-md-5 pt-5  text-center">
+						<div class="col-xxl-4 col-12 col-sm-6 col-md-5 pt-5 mt-5  text-center">
 							<div class="web_scil2" style="">
 								<img src="" alt="">
 								<h4>Адрес</h4>
@@ -258,7 +274,7 @@
 								<p><i class="fa fa-map custom-map2" aria-hidden="true"></i>Институтская ул.дом 14,<br> микрорайон Щёлково-3, Щёлково</p>
 							</div>
 						</div>
-						<div class="col-xxl-4 col-12 col-sm-6 col-md-5 pt-5  text-center">
+						<div class="col-xxl-4 col-12 col-sm-6 col-md-5 pt-5 mt-5  text-center">
 							<div class="web_scil4" style="">
 								<img src="" alt=""> 
 								<h4><i class="fa fa-clock-o custom-clock" aria-hidden="true"></i><b>Часы работы</b></h4>
@@ -267,7 +283,7 @@
 							</div>
 						</div>				
 
-						<div class="col-xxl-4 col-12 col-sm-6 col-md-5 pt-5   text-center">
+						<div class="col-xxl-4 col-12 col-sm-6 col-md-5 pt-5 mt-5  text-center">
 							<div class="web_scil3" style="">
 								<img src="" alt="">
 								<h4>Контакты</h4>

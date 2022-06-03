@@ -3,6 +3,75 @@ body{
 	font-family: Arial,sans-serif;
 	-webkit-text-size-adjust: none;
 }
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* фоновый цвет элемента */
+  background: #e0e0e0;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #337ab7;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay:-1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 7s opacity;
+  opacity: 1;
+}
+
+.loaded .preloader {
+  display: none;
+}
 
 nav{
 	width: 100%;
@@ -12,12 +81,16 @@ nav{
 	z-index: 10;
 
 }
+nav img{
+	width: 57px;
+	margin: 0px 10px 10px 0px;
+}
 /*#008B8B-бирюзовый
 #FFCF40-желтый*/
 .logo{
 	
 	color: yellow;
-	font-size: 38px;
+	font-size: calc(30px + 8 * ((100vw - 992px)/(1280-992)));
 	line-height: 60px;
 	
 }
@@ -35,7 +108,8 @@ main{
 	line-height: 60px;
 	color: #FFCF40;
 	margin-right: 70px;
-	font-size: 14px;
+	
+	font-size: calc(12px + 2 * ((100vw - 992px)/(1280-992)));
 	text-transform: uppercase;
 	-webkit-animation: topshift 0.4s ease forwards;
 	-o-animation: topshift 0.4s ease forwards;
@@ -96,7 +170,7 @@ main{
 .warning-btn {
 	background-color: yellow;
 	color: #008B8B;
-	margin: 50px 0px 0px 370px;
+	margin: 50px 0px 0px 200px;
 }
 
 .modal-body{
@@ -175,7 +249,7 @@ main a{
 
 .Two h3{
 	color: yellow;
-	font-size: 46px;
+	font-size: calc(30px + 15 * ((100vw - 375px)/(1280-375)));
 	line-height: 100px;
 	text-align: center;
 	
@@ -185,7 +259,7 @@ main a{
 
 .Two h4{
 	color: yellow;
-	font-size: 24px;
+	font-size: calc(20px + 4 * ((100vw - 375px)/(1280-375)));
 	transform: scale(1);
 	text-decoration: none;
 	
@@ -201,7 +275,7 @@ main a{
 }
 
 .Two p{
-	font-size: 12px;
+	font-size: calc(10px + 2 * ((100vw - 375px)/(1280-375)));
 	color: yellow	;	
 	line-height: 30px;
 	text-align: center;
@@ -263,7 +337,7 @@ main a{
 	}
 	.Three h3{
 		color: #20B2AA;
-		font-size: 46px;
+		font-size: calc(30px + 15 * ((100vw - 375px)/(1280-375)));
 		line-height: 100px;
 		text-align: center;	
 
@@ -280,12 +354,13 @@ main a{
 
 	footer h3{
 		color: yellow;
-		font-size: 46px;
+		font-size: calc(30px + 15 * ((100vw - 375px)/(1280-375)));
 		line-height: 100px;
 		text-align: center;
 	}
 	footer h4{
 		color: yellow;
+		font-size: calc(16px + 4 * ((100vw - 375px)/(1280-375)));
 
 	}
 
@@ -303,10 +378,8 @@ main a{
 	}
 	.web_scil2{
 
-
 		color: yellow;
-
-		font-size: 17 px;
+		font-size: calc(13px + 4 * ((100vw - 375px)/(1280-375)));
 		text-transform: uppercase;
 	}
 	.custom-map2{
@@ -316,7 +389,8 @@ main a{
 
 	.web_scil3{
 		color: yellow;
-		font-size: 17px;
+		font-size: calc(13px + 4 * ((100vw - 375px)/(1280-375)));
+
 		text-transform: uppercase;
 	}
 	.custom-phone{
@@ -334,7 +408,8 @@ main a{
 	}
 	.web_scil4{
 		color: yellow;
-		font-size: 17px;
+		font-size: calc(13px + 4 * ((100vw - 375px)/(1280-375)));
+
 		text-transform: uppercase;
 	}
 
