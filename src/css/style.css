@@ -1,6 +1,7 @@
 
 body{
 	font-family: Arial,sans-serif;
+	-webkit-text-size-adjust: none;
 }
 
 nav{
@@ -67,6 +68,9 @@ main{
 
 
 }
+.ingo-btn{
+	color: #fff;
+}
 @keyframes titlemove{
 	from{
 		opacity: 0;
@@ -96,6 +100,8 @@ main{
 		font-size: calc(25px + )
 	}
 }
+
+
 
 
 
@@ -256,7 +262,7 @@ main{
 	}
 	.custom-map{
 		font-size: 35px;
-		width: 60px;
+		width: 40px;
 		color: yellow;
 		
 	}
