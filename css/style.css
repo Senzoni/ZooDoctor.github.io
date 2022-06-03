@@ -74,25 +74,35 @@ main{
 .btn{
 	color: yellow;
 }
-.btn-yellow{
+.modal-body{
 	color: yellow;
 	background-color:#008B8B; 
+}
+.modal-body h5{
+	text-align: center;
+	line-height: 50px;
 }
 .btn-color{
 	color: red;
 }
-.modal-header{
-	background-color: #008B8B;
-}
+
 .modal-title{
 	color: yellow;
 }
-.modal-footer{
-	background-color: #008B8B;
+
+.modal-dialog{
+	background-color: yellow;
 }
+.warning-btn {
+	background-color: yellow;
+	color: #008B8B;
+	margin: 50px 0px 0px 370px;
+}
+
 .modal-body{
 	background-color: #008B8B;
 }
+
 @keyframes titlemove{
 	from{
 		opacity: 0;
