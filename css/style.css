@@ -46,7 +46,7 @@ main{
 }
 
 .main{
-	width: 100%;
+	
 	height: 1200px;
 	background:url(../img/fon3.jpg) center/cover no-repeat ;
 	perspective: 1;
@@ -79,16 +79,22 @@ main{
 }
 .title__container h1{
 	font-family: Arial, sans-serif;
-	font-size: 45px;
 	font-weight: 600;
+	font-size: calc(28px + 20 * ((100vw - 375px)/(1280-375)));
 }
 
 .title__container h4{
-	
-	font-size: 32px;
+	font-size: calc(19px + 15 * ((100vw - 375px)/(1280-375)));
+	font-weight: 600;
 	color: #008B8B;
 
 
+}
+@media  (max-width: 767px){
+
+	h1{
+		font-size: calc(25px + )
+	}
 }
 
 
@@ -235,6 +241,7 @@ main{
 		color: yellow;
 		font-size: 46px;
 		line-height: 100px;
+		text-align: center;
 	}
 	footer h4{
 		color: yellow;
