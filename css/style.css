@@ -68,8 +68,30 @@ main{
 
 
 }
-.ingo-btn{
-	color: #fff;
+.info-btn{
+	background-color: #008B8B;
+}
+.btn{
+	color: yellow;
+}
+.btn-yellow{
+	color: yellow;
+	background-color:#008B8B; 
+}
+.btn-color{
+	color: red;
+}
+.modal-header{
+	background-color: #008B8B;
+}
+.modal-title{
+	color: yellow;
+}
+.modal-footer{
+	background-color: #008B8B;
+}
+.modal-body{
+	background-color: #008B8B;
 }
 @keyframes titlemove{
 	from{
@@ -80,6 +102,9 @@ main{
 		opacity: 1;
 		margin-left: 0px;
 	}
+}
+main a{
+	color: yellow;
 }
 .title__container h1{
 	font-family: Arial, sans-serif;
