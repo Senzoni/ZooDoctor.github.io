@@ -213,15 +213,12 @@ main a{
 	}
 }
 
-#exampleModal{
-
-  left: 50%;
-  top: 50%;
-  
+#exampleModal{ 
+  left: 42%;
+  top: 47%;  
   width: 360px;
-  height: 550px;
-  justify-content: center;
-  transform: translate(-50%, -50%)
+  height: 650px;  
+  
 }
 .Visov a{
 	padding-left: 100px;
@@ -371,7 +368,7 @@ main a{
 	footer h3{
 		color: yellow;
 		font-size: calc(30px + 15 * ((100vw - 375px)/(1280-375)));
-		line-height: 100px;
+		line-height: 50px;
 		text-align: center;
 	}
 	footer h4{
@@ -418,10 +415,10 @@ main a{
 		font-size: 40px;
 		width: 60px;
 	}
-	.custom-insta{
+	/*.custom-insta{
 		font-size: 40px;
 		width: 60px;
-	}
+	}*/
 	.web_scil4{
 		color: yellow;
 		font-size: calc(13px + 4 * ((100vw - 375px)/(1280-375)));
