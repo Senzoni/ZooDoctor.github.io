@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$(window).scroll(( ) => {
 		let scrollDistance = $(window).scrollTop();
 		
+		$('#exampleModal').appendTo("modal-dialog").modal('show');
 
 	});
 });	
