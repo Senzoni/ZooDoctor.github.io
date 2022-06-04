@@ -146,6 +146,7 @@ main{
 }
 .btn{
 	color: yellow;
+	cursor:pointer;
 }
 .modal-body{
 	color: yellow;
@@ -155,9 +156,7 @@ main{
 	text-align: center;
 	line-height: 50px;
 }
-.btn-color{
-	color: red;
-}
+
 
 .modal-title{
 	color: yellow;
@@ -171,6 +170,7 @@ main{
 	background-color: yellow;
 	color: #008B8B;
 	margin: 50px 0px 0px 200px;
+	cursor:pointer;
 }
 
 .modal-body{
