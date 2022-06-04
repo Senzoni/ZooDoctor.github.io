@@ -215,10 +215,10 @@ main a{
 
 #exampleModal{
 
- position: absolute;
+ 
   left: 50%;
   top: 50%;
-  display: block;
+  
   width: 360px;
   height: 550px;
   justify-content: center;
