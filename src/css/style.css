@@ -171,6 +171,7 @@ main{
 	background-color: yellow;
 	color: #008B8B;
 	margin: 50px 0px 0px 200px;
+	cursor: pointer;
 }
 
 .modal-body{
