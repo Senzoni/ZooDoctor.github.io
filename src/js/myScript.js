@@ -3,7 +3,6 @@ $(document).ready(function(){
 	$(window).scroll(( ) => {
 		let scrollDistance = $(window).scrollTop();
 		
-		
 
 	});
 });	
