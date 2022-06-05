@@ -4,7 +4,7 @@ $(document).ready(function(){
 		let scrollDistance = $(window).scrollTop();
 		
 		var modalToggle = document.getElementById('toggleMyModal') // relatedTarget
-		myModal.show(modalToggle);
+		myModal.show(modalToggle)
 
 	});
 });	
