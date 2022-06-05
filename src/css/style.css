@@ -215,7 +215,9 @@ main a{
 .Visov a{
 	padding-left: 100px;
 }
-
+.btn-color{
+	color: #008B8B;
+}
 
 .menu li a{
 	transition: all 0.2s;
