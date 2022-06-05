@@ -362,7 +362,7 @@ main a{
 	footer h3{
 		color: yellow;
 		font-size: calc(30px + 15 * ((100vw - 375px)/(1280-375)));
-		line-height: 50px;
+		line-height: 55px;
 		text-align: center;
 	}
 	footer h4{
