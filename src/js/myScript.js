@@ -3,7 +3,8 @@ $(document).ready(function(){
 	$(window).scroll(( ) => {
 		let scrollDistance = $(window).scrollTop();
 		
-		$('#exampleModal').appendTo("modal-dialog").modal('show');
+		var modalToggle = document.getElementById('toggleMyModal') // relatedTarget
+		myModal.show(modalToggle);
 
 	});
 });	
